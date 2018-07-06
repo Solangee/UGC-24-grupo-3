@@ -7,7 +7,7 @@
 - Diego Alejandro Villa Velasquez
 - Jose leonidas Gil
 
-##Nombre de la aplicación: <<POR DEFINIR>>
+## Nombre de la aplicación: <<POR DEFINIR>>
 
 ## Descripción del proyecto:
 Desarrollo de una aplicación web que permita a quienes habitan en la localidad de Chapinero (inicialmente) acceder de forma ordenada a la oferta educativa formal y no formal, apoyando el proceso de la toma de decisiones al momento de iniciar un nuevo proceso educativo.
