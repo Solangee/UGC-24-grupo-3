@@ -23,10 +23,12 @@ Desarrollo de una aplicación web que permita a quienes habitan en la localidad 
 *La problemática de la comunidad es que tiene poca oferta de educación pública disponible, la cual no tiene la misma calidad que los otros centros de formación de la zona, y acceder a ella es difícil por factores económicos y de inseguridad.*
 
 ### Descripción
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Diseño e implementación de una aplicación movil(app) y pagina web, para buscar oferta educativa formal y no formal. 
 
 ## Funciones Básicas
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Buscar ofertas educativas a nivel general: Profesional, tecnicos, cursos, otros...
+- Publicar ofertas educativas
+
 
 ## Sketch
 https://ninjamock.com/s/Q7RCSTx
