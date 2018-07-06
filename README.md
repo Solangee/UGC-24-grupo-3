@@ -12,7 +12,7 @@
 ## Educación Incluyente - Localidad Chapinero
 
 
-## Nombre de la aplicación: <<POR DEFINIR>>
+## Nombre de la aplicación: EDUPEOPLE
 
 
 ## Descripción del proyecto:
