@@ -1,4 +1,4 @@
-##Nombre del proyecto: Edupeople
+## Nombre del proyecto: Edupeople
 ## UGC-24-grupo-3
 ### Integrantes:
 - Carlos Acosta
@@ -9,7 +9,7 @@
 
 
 
-##Educación Incluyente - Localidad Chapinero 
+## Educación Incluyente - Localidad Chapinero 
 
 
 ## Nombre de la aplicación: <<POR DEFINIR>>
