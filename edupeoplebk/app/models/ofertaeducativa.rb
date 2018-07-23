@@ -1,2 +1,0 @@
-class Ofertaeducativa < ApplicationRecord
-end
