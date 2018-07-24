@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  descripcion: MyString
+  institucion_id: 1
+  categoria_id: 1
+  jornada_id: 1
+  ubicacion_id: 1
+  duracion_id: 1
+
+two:
+  nombre: MyString
+  descripcion: MyString
+  institucion_id: 1
+  categoria_id: 1
+  jornada_id: 1
+  ubicacion_id: 1
+  duracion_id: 1

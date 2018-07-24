@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @ofertaeducativa.nombre %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @ofertaeducativa.descripcion %>
+</p>
+
+<p>
+  <strong>Institucion:</strong>
+  <%= @ofertaeducativa.institucion_id %>
+</p>
+
+<p>
+  <strong>Categoria:</strong>
+  <%= @ofertaeducativa.categoria_id %>
+</p>
+
+<p>
+  <strong>Jornada:</strong>
+  <%= @ofertaeducativa.jornada_id %>
+</p>
+
+<p>
+  <strong>Ubicacion:</strong>
+  <%= @ofertaeducativa.ubicacion_id %>
+</p>
+
+<p>
+  <strong>Duracion:</strong>
+  <%= @ofertaeducativa.duracion_id %>
+</p>
+
+<%= link_to 'Edit', edit_ofertaeducativa_path(@ofertaeducativa) %> |
+<%= link_to 'Back', ofertaeducativas_path %>
