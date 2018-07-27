@@ -32,3 +32,6 @@ Diseño e implementación de una aplicación movil(app) y pagina web, para busca
 
 ## Sketch
 https://ninjamock.com/s/Q7RCSTx
+
+## Despliegue/Publicación Heroku
+https://edupeople.herokuapp.com/
