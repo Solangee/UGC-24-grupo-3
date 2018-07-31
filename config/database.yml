@@ -17,12 +17,12 @@ development:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  # host: localhost
-  # port: 5433
-  # username: postgres
-  # password: ''
-  # database: db_edupeople
-  url: https://git.heroku.com/edupeopleapp.git
+  host: localhost
+  port: 5433
+  username: postgres
+  password: ''
+  database: db_edupeople
+  # url: https://git.heroku.com/edupeopleapp.git
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
