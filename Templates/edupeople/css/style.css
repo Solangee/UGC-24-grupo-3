@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-submit {
-  background: #FFD34E;
+  background: #43C9E8;
   border: 0px;
   display: inline-block;
   font-size: 16px;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   margin-top: 25px;
-  border: 2px solid #FFD34E;
+  border: 2px solid #43C9E8;
 }
 
 .btn-submit:hover {
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-info {
-  border: 5px solid #FFD34E;
+  border: 5px solid #43C9E8;
   padding: 40px 0px;
 }
 
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dec-tec {
-  font-size: 34px;
+  font-size: 28px;
 }
 
 /****/
