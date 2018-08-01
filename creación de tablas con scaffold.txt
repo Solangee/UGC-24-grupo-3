@@ -1,0 +1,4 @@
+#Contacto
+rails generate scaffold contacto nombre:string email:string asunto:string mensaje:text
+#Oferta Educativa
+rails generate scaffold 

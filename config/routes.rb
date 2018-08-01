@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :oferta_educativas
   resources :contactos
   resources :ofertaeducativas
   resources :usuarios
