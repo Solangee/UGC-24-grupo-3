@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Oferta educativa:</strong>
+  <%= @oferta_categorium.oferta_educativa_id %>
+</p>
+
+<p>
+  <strong>Categoria:</strong>
+  <%= @oferta_categorium.categoria_id %>
+</p>
+
+<%= link_to 'Edit', edit_oferta_categorium_path(@oferta_categorium) %> |
+<%= link_to 'Back', oferta_categoria_path %>

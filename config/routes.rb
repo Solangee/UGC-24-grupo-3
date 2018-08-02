@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :jornadas
+  resources :oferta_categoria
+  resources :categoria
+  resources :duracions
   resources :oferta_educativas
   resources :contactos
   resources :ofertaeducativas

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Oferta Categoria</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Oferta educativa</th>
+      <th>Categoria</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @oferta_categoria.each do |oferta_categorium| %>
+      <tr>
+        <td><%= oferta_categorium.oferta_educativa_id %></td>
+        <td><%= oferta_categorium.categoria_id %></td>
+        <td><%= link_to 'Show', oferta_categorium %></td>
+        <td><%= link_to 'Edit', edit_oferta_categorium_path(oferta_categorium) %></td>
+        <td><%= link_to 'Destroy', oferta_categorium, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Oferta Categorium', new_oferta_categorium_path %>
