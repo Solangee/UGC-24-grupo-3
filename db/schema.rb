@@ -10,10 +10,56 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_20_003025) do
+ActiveRecord::Schema.define(version: 2018_08_02_000537) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "categoria", force: :cascade do |t|
+    t.string "nombre"
+    t.integer "padre_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "contactos", force: :cascade do |t|
+    t.string "nombre"
+    t.string "email"
+    t.string "asunto"
+    t.text "mensaje"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "duracions", force: :cascade do |t|
+    t.string "nombre"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "jornadas", force: :cascade do |t|
+    t.string "nombre"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "oferta_categoria", force: :cascade do |t|
+    t.integer "oferta_educativa_id"
+    t.integer "categoria_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "oferta_educativas", force: :cascade do |t|
+    t.string "nombre"
+    t.string "descripcion"
+    t.integer "categoria_ids"
+    t.integer "jornada_id"
+    t.integer "ubicacion_id"
+    t.integer "duracion_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "ofertaeducativas", force: :cascade do |t|
     t.string "nombre"

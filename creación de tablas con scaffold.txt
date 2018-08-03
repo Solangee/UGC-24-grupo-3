@@ -1,4 +1,9 @@
-#Contacto
 rails generate scaffold contacto nombre:string email:string asunto:string mensaje:text
-#Oferta Educativa
-rails generate scaffold 
+rails generate scaffold oferta_educativa nombre:string descripcion:string categoria_ids:integer jornada_id:integer ubicacion_id:integer duracion_id:integer
+rails generate scaffold jornada nombre:string
+rails generate scaffold oferta_categoria oferta_educativa_id:integer categoria_id:integer    
+rails generate scaffold categoria nombre:string padre_id:integer
+rails generate scaffold duracion nombre:string
+
+
+    

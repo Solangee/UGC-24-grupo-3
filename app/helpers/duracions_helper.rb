@@ -1,0 +1,2 @@
+module DuracionsHelper
+end

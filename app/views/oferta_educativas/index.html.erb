@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Oferta Educativas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Descripcion</th>
+      <th>Categoria ids</th>
+      <th>Jornada</th>
+      <th>Ubicacion</th>
+      <th>Duracion</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @oferta_educativas.each do |oferta_educativa| %>
+      <tr>
+        <td><%= oferta_educativa.nombre %></td>
+        <td><%= oferta_educativa.descripcion %></td>
+        <td><%= oferta_educativa.categoria_ids %></td>
+        <td><%= oferta_educativa.jornada_id %></td>
+        <td><%= oferta_educativa.ubicacion_id %></td>
+        <td><%= oferta_educativa.duracion_id %></td>
+        <td><%= link_to 'Show', oferta_educativa %></td>
+        <td><%= link_to 'Edit', edit_oferta_educativa_path(oferta_educativa) %></td>
+        <td><%= link_to 'Destroy', oferta_educativa, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Oferta Educativa', new_oferta_educativa_path %>

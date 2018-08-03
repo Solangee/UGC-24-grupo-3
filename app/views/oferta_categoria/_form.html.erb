@@ -1,0 +1,27 @@
+<%= form_with(model: oferta_categorium, local: true) do |form| %>
+  <% if oferta_categorium.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(oferta_categorium.errors.count, "error") %> prohibited this oferta_categorium from being saved:</h2>
+
+      <ul>
+      <% oferta_categorium.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :oferta_educativa_id %>
+    <%= form.number_field :oferta_educativa_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :categoria_id %>
+    <%= form.number_field :categoria_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+class OfertaEducativa < ApplicationRecord
+end

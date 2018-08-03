@@ -69,6 +69,7 @@ class OfertaeducativasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def ofertaeducativa_params
-      params.require(:ofertaeducativa).permit(:nombre, :descripcion, :institucion_id, :categoria_id, :jornada_id, :ubicacion_id, :duracion_id)
+      params.permit(:nombre, :descripcion, :institucion_id, :categoria_id, :jornada_id, :ubicacion_id, :duracion_id)
+      # params.require(:ofertaeducativa).permit(:nombre, :descripcion, :institucion_id, :categoria_id, :jornada_id, :ubicacion_id, :duracion_id)
     end
 end

@@ -1,0 +1,2 @@
+class OfertaCategorium < ApplicationRecord
+end
