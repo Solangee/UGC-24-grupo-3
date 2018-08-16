@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contact1s
   resources :jornadas
   resources :oferta_categoria
   resources :categoria
